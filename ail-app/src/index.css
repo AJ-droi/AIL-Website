@@ -1,0 +1,22 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer utilities{
+  .pseudo{
+    content: " ";
+    width: 100%;
+    position: absolute;
+    top:0px;
+    left:0px;
+    z-index: 0;
+    opacity: 0.8;
+    background-color: #000;
+    
+  }
+}
+
+
+
