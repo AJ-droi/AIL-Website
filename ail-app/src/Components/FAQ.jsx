@@ -3,7 +3,7 @@ import React from 'react'
 const FAQ = () => {
   return (
     <div id="faq" className='bg-amber-100 h-auto py-12'>
-        <h3 className="text-5xl font-mont font-bold text-amber-900 pb-4">ENQUIRY </h3>
+        <h3 className=" text-3xl md:text-5xl font-mont font-bold text-amber-900 pb-4">ENQUIRY </h3>
         
         <div id="accordion" className="w-2/3 mx-auto">
             <div className="card">
