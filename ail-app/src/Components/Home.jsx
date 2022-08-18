@@ -66,8 +66,8 @@ const Home = () => {
                 }
                 return(
                     <article key={idx} className={position} >
-                        <div  className="relative w-screen h-screen before:pseudo before:h-screen md:h-full md:before:h-full  lg:h-screen lg:before:h-full " style={{backgroundImage:`url("${image}")`, backgroundSize: "100% 100%", backgroundRepeat: "no-repeat"}}>
-                           <div className="relative z-1 text-amber-200 text-center flex flex-col items-center justify-between h-2/3 pt-72 md:pt-48 lg:pt-72">
+                        <div  className="relative w-screen h-screen before:pseudo before:h-screen md:h-4/5 md:before:h-full  lg:h-screen lg:before:h-screen " style={{backgroundImage:`url("${image}")`, backgroundSize: "100% 100%", backgroundRepeat: "no-repeat"}}>
+                           <div className="relative z-1 text-amber-200 text-center flex flex-col items-center justify-between md:justify-start lg:justify-evenly h-2/3 pt-72 md:pt-48 lg:pt-72">
                               <h3 className="text-3xl md:text-5xl font-bold font-mont leading-normal ">
                                   AHUIZI INVESTMENT LTD. 
                               </h3>
